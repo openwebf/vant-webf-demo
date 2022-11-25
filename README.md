@@ -1,8 +1,8 @@
 # vue3
 ## TODO
 - [x] Button
-- [x] image
-- [x] icon
+- [x] Image
+- [x] Icon
 - [x] Cell
 - [x] CellGroup
 - [x] Checkbox
@@ -13,6 +13,9 @@
 - [x] CountDown
 - [x] Radio
 - [x] RadioGroup
+- [x] Layout
+- [x] Tag
+- [ ] Badge
 - [ ] Calendar
 - [ ] Collapse
 - [ ] CollapseItem

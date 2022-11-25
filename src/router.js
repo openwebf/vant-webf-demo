@@ -107,12 +107,28 @@ const routes = [
       title: 'datetimePicker',
     },
   },
-   {
+  {
     name: 'radio',
     path: '/radio',
     component: () => import('./view/components/radio'),
     meta: {
       title: 'radio',
+    },
+  },
+  {
+    name: 'badge',
+    path: '/badge',
+    component: () => import('./view/components/badge'),
+    meta: {
+      title: 'badge',
+    },
+  },
+  {
+    name: 'tag',
+    path: '/tag',
+    component: () => import('./view/components/tag'),
+    meta: {
+      title: 'tag',
     },
   },
 ];
