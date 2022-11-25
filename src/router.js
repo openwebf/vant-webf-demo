@@ -83,7 +83,7 @@ const routes = [
       title: 'Overlay',
     },
   },
-    {
+  {
     name: 'transition',
     path: '/transition',
     component: () => import('./view/components/transition'),
@@ -91,7 +91,7 @@ const routes = [
       title: 'Transition',
     },
   },
-      {
+  {
     name: 'checkbox',
     path: '/checkbox',
     component: () => import('./view/components/checkbox'),
@@ -99,12 +99,20 @@ const routes = [
       title: 'Checkbox',
     },
   },
-        {
+  {
     name: 'datetimePicker',
     path: '/datetimePicker',
     component: () => import('./view/components/datetimePicker'),
     meta: {
       title: 'datetimePicker',
+    },
+  },
+   {
+    name: 'radio',
+    path: '/radio',
+    component: () => import('./view/components/radio'),
+    meta: {
+      title: 'radio',
     },
   },
 ];

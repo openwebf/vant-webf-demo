@@ -11,6 +11,8 @@
 - [x] Row
 - [x] Space
 - [x] CountDown
+- [x] Radio
+- [x] RadioGroup
 - [ ] Calendar
 - [ ] Collapse
 - [ ] CollapseItem
@@ -21,8 +23,6 @@
 - [ ] NumberKeyboard
 - [ ] Picker
 - [ ] Popup
-- [ ] Radio
-- [ ] RadioGroup
 - [ ] Swipe
 - [ ] SwipeItem
 - [ ] Switch
