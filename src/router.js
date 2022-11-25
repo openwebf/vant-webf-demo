@@ -131,6 +131,14 @@ const routes = [
       title: 'tag',
     },
   },
+  {
+    name: 'divider',
+    path: '/divider',
+    component: () => import('./view/components/divider'),
+    meta: {
+      title: 'divider',
+    },
+  },
 ];
 
 const router = createRouter({
