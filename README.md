@@ -15,10 +15,10 @@
 - [x] RadioGroup
 - [x] Layout
 - [x] Tag
+- [x] Collapse
+- [x] CollapseItem
 - [ ] Badge
 - [ ] Calendar
-- [ ] Collapse
-- [ ] CollapseItem
 - [ ] DatetimePicker
 - [ ] Dialog
 - [ ] Field

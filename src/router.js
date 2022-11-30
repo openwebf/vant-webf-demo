@@ -139,6 +139,14 @@ const routes = [
       title: 'divider',
     },
   },
+   {
+    name: 'collapse',
+    path: '/collapse',
+    component: () => import('./view/components/collapse'),
+    meta: {
+      title: 'collapse',
+    },
+  },
 ];
 
 const router = createRouter({
