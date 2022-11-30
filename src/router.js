@@ -147,6 +147,14 @@ const routes = [
       title: 'collapse',
     },
   },
+  {
+    name: 'card',
+    path: '/card',
+    component: () => import('./view/components/card'),
+    meta: {
+      title: 'card',
+    },
+  },
 ];
 
 const router = createRouter({
