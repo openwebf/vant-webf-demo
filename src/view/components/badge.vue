@@ -7,58 +7,58 @@
   <div class="demo-badge">
 
     <demo-block :title="'basicUsage'">
-      <van-badge content="5">
+      <van-badge width="29" height="18" content="99+">
+        我是
+      </van-badge>
+      <van-badge content="10" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="10">
+      <van-badge content="Hot" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="Hot">
-        <div class="child"/>
-      </van-badge>
-      <van-badge dot>
+      <van-badge dot width="29" height="18">
         <div class="child"/>
       </van-badge>
     </demo-block>
 
     <demo-block :title="'max'">
-      <van-badge content="20" max="9">
+      <van-badge content="20" max="9" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="50" max="20">
+      <van-badge content="50" max="20" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="200" max="99">
+      <van-badge content="200" max="99" width="29" height="18">
         <div class="child"/>
       </van-badge>
     </demo-block>
 
     <demo-block :title="'customColor'">
-      <van-badge content="5" color="#1989fa">
+      <van-badge content="5" color="#1989fa" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="10" color="#1989fa">
+      <van-badge content="10" color="#1989fa" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge dot color="#1989fa">
+      <van-badge dot color="#1989fa" width="29" height="18">
         <div class="child"/>
       </van-badge>
     </demo-block>
 
     <demo-block :title="'customContent'">
-      <van-badge>
+      <van-badge width="29" height="18">
         <div class="child"/>
         <template #content>
           <van-icon name="success" class="badge-icon"/>
         </template>
       </van-badge>
-      <van-badge>
+      <van-badge width="29" height="18">
         <div class="child"/>
         <template #content>
           <van-icon name="cross" class="badge-icon"/>
         </template>
       </van-badge>
-      <van-badge>
+      <van-badge width="29" height="18">
         <div class="child"/>
         <template #content>
           <van-icon name="down" class="badge-icon"/>
@@ -67,20 +67,20 @@
     </demo-block>
 
     <demo-block :title="'customPosition'">
-      <van-badge content="10" position="top-left">
+      <van-badge content="10" position="top-left" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="10" position="bottom-left">
+      <van-badge content="10" position="bottom-left" width="29" height="18">
         <div class="child"/>
       </van-badge>
-      <van-badge content="10" position="bottom-right">
-        <div class="child"/>
+      <van-badge content="10" position="bottom-right" width="29" height="18">
+      <div class="child"/>
       </van-badge>
     </demo-block>
 
     <demo-block :title="'standalone'">
-      <van-badge content="20" style="margin-left: 16px"/>
-      <van-badge content="200" max="99" style="margin-left: 16px"/>
+      <van-badge content="20" style="margin-left: 16px;width: 18px" width="29" height="18"/>
+      <van-badge content="200" max="99" style="margin-left: 16px" width="29" height="18"/>
     </demo-block>
   </div>
 </template>

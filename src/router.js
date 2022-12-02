@@ -139,7 +139,7 @@ const routes = [
       title: 'divider',
     },
   },
-   {
+  {
     name: 'collapse',
     path: '/collapse',
     component: () => import('./view/components/collapse'),
@@ -153,6 +153,21 @@ const routes = [
     component: () => import('./view/components/card'),
     meta: {
       title: 'card',
+    },
+  },
+  {
+    name: 'treeSelect',
+    path: '/treeSelect',
+    component: () => import('./view/components/treeSelect'),
+    meta: {
+      title: 'treeSelect',
+    },
+  }, {
+    name: 'slider',
+    path: '/slider',
+    component: () => import('./view/components/slider'),
+    meta: {
+      title: 'slider',
     },
   },
 ];
