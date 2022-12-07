@@ -19,6 +19,7 @@
 - [x] CollapseItem
 - [x] Card
 - [x] Badge
+- [x] Loading
 - [ ] Calendar
 - [ ] DatetimePicker
 - [ ] Dialog
