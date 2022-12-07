@@ -1,173 +1,222 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
   {
-    name: '/',
-    path: '/',
+    name: "/",
+    path: "/",
     redirect: {
-      name: 'button',
+      name: "button",
     },
     meta: {
-      title: 'Home',
-    },
-  },
-  {
-    name: 'button',
-    path: '/button',
-    component: () => import('./view/components/button'),
-    meta: {
-      title: 'Button',
+      title: "Home",
     },
   },
   {
-    name: 'icon',
-    path: '/icon',
-    component: () => import('./view/components/icon'),
+    name: "button",
+    path: "/button",
+    component: () => import("./view/components/button"),
     meta: {
-      title: 'Icon',
+      title: "Button",
     },
   },
   {
-    name: 'cell',
-    path: '/cell',
-    component: () => import('./view/components/cell'),
+    name: "icon",
+    path: "/icon",
+    component: () => import("./view/components/icon"),
     meta: {
-      title: 'Cell',
+      title: "Icon",
     },
   },
   {
-    name: 'image',
-    path: '/image',
-    component: () => import('./view/components/image'),
+    name: "cell",
+    path: "/cell",
+    component: () => import("./view/components/cell"),
     meta: {
-      title: 'Image',
+      title: "Cell",
     },
   },
   {
-    name: 'layout',
-    path: '/layout',
-    component: () => import('./view/components/layout'),
+    name: "image",
+    path: "/image",
+    component: () => import("./view/components/image"),
     meta: {
-      title: 'Layout',
+      title: "Image",
     },
   },
   {
-    name: 'popup',
-    path: '/popup',
-    component: () => import('./view/components/popup'),
+    name: "layout",
+    path: "/layout",
+    component: () => import("./view/components/layout"),
     meta: {
-      title: 'Popup',
+      title: "Layout",
     },
   },
   {
-    name: 'space',
-    path: '/space',
-    component: () => import('./view/components/space'),
+    name: "popup",
+    path: "/popup",
+    component: () => import("./view/components/popup"),
     meta: {
-      title: 'Space',
+      title: "Popup",
     },
   },
   {
-    name: 'toast',
-    path: '/toast',
-    component: () => import('./view/components/toast'),
+    name: "space",
+    path: "/space",
+    component: () => import("./view/components/space"),
     meta: {
-      title: 'Toast',
+      title: "Space",
     },
   },
   {
-    name: 'overlay',
-    path: '/overlay',
-    component: () => import('./view/components/overlay'),
+    name: "toast",
+    path: "/toast",
+    component: () => import("./view/components/toast"),
     meta: {
-      title: 'Overlay',
+      title: "Toast",
     },
   },
   {
-    name: 'transition',
-    path: '/transition',
-    component: () => import('./view/components/transition'),
+    name: "overlay",
+    path: "/overlay",
+    component: () => import("./view/components/overlay"),
     meta: {
-      title: 'Transition',
+      title: "Overlay",
     },
   },
   {
-    name: 'checkbox',
-    path: '/checkbox',
-    component: () => import('./view/components/checkbox'),
+    name: "transition",
+    path: "/transition",
+    component: () => import("./view/components/transition"),
     meta: {
-      title: 'Checkbox',
+      title: "Transition",
     },
   },
   {
-    name: 'datetimePicker',
-    path: '/datetimePicker',
-    component: () => import('./view/components/datetimePicker'),
+    name: "checkbox",
+    path: "/checkbox",
+    component: () => import("./view/components/checkbox"),
     meta: {
-      title: 'datetimePicker',
+      title: "Checkbox",
     },
   },
   {
-    name: 'radio',
-    path: '/radio',
-    component: () => import('./view/components/radio'),
+    name: "datetimePicker",
+    path: "/datetimePicker",
+    component: () => import("./view/components/datetimePicker"),
     meta: {
-      title: 'radio',
+      title: "datetimePicker",
     },
   },
   {
-    name: 'badge',
-    path: '/badge',
-    component: () => import('./view/components/badge'),
+    name: "radio",
+    path: "/radio",
+    component: () => import("./view/components/radio"),
     meta: {
-      title: 'badge',
+      title: "radio",
     },
   },
   {
-    name: 'tag',
-    path: '/tag',
-    component: () => import('./view/components/tag'),
+    name: "badge",
+    path: "/badge",
+    component: () => import("./view/components/badge"),
     meta: {
-      title: 'tag',
+      title: "badge",
     },
   },
   {
-    name: 'divider',
-    path: '/divider',
-    component: () => import('./view/components/divider'),
+    name: "tag",
+    path: "/tag",
+    component: () => import("./view/components/tag"),
     meta: {
-      title: 'divider',
+      title: "tag",
     },
   },
   {
-    name: 'collapse',
-    path: '/collapse',
-    component: () => import('./view/components/collapse'),
+    name: "divider",
+    path: "/divider",
+    component: () => import("./view/components/divider"),
     meta: {
-      title: 'collapse',
+      title: "divider",
     },
   },
   {
-    name: 'card',
-    path: '/card',
-    component: () => import('./view/components/card'),
+    name: "collapse",
+    path: "/collapse",
+    component: () => import("./view/components/collapse"),
     meta: {
-      title: 'card',
+      title: "collapse",
     },
   },
   {
-    name: 'treeSelect',
-    path: '/treeSelect',
-    component: () => import('./view/components/treeSelect'),
+    name: "card",
+    path: "/card",
+    component: () => import("./view/components/card"),
     meta: {
-      title: 'treeSelect',
+      title: "card",
     },
-  }, {
-    name: 'slider',
-    path: '/slider',
-    component: () => import('./view/components/slider'),
+  },
+  {
+    name: "treeSelect",
+    path: "/treeSelect",
+    component: () => import("./view/components/treeSelect"),
     meta: {
-      title: 'slider',
+      title: "treeSelect",
+    },
+  },
+  {
+    name: "slider",
+    path: "/slider",
+    component: () => import("./view/components/slider"),
+    meta: {
+      title: "slider",
+    },
+  },
+  {
+    name: "switch",
+    path: "/switch",
+    component: () => import("./view/components/switch"),
+    meta: {
+      title: "switch",
+    },
+  },
+  {
+    name: "tab",
+    path: "/tab",
+    component: () => import("./view/components/tab"),
+    meta: {
+      title: "tab",
+    },
+  },
+  {
+    name: "nav",
+    path: "/nav",
+    component: () => import("./view/components/nav"),
+    meta: {
+      title: "nav",
+    },
+  },
+  {
+    name: "grid",
+    path: "/grid",
+    component: () => import("./view/components/grid"),
+    meta: {
+      title: "grid",
+    },
+  },
+    {
+    name: "noticeBar",
+    path: "/noticeBar",
+    component: () => import("./view/components/noticeBar"),
+    meta: {
+      title: "noticeBar",
+    },
+  },
+      {
+    name: "loading",
+    path: "/loading",
+    component: () => import("./view/components/loading"),
+    meta: {
+      title: "loading",
     },
   },
 ];

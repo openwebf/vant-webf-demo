@@ -1,6 +1,6 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import { router } from './router';
+import { createApp } from "vue";
+import App from "./App.vue";
+import { router } from "./router";
 import {
   Button,
   Calendar,
@@ -16,6 +16,8 @@ import {
   Dialog,
   Field,
   Form,
+  Grid,
+  GridItem,
   NumberKeyboard,
   Picker,
   Popup,
@@ -26,11 +28,12 @@ import {
   Swipe,
   SwipeItem,
   Switch,
-  Toast,
   Tab,
-  Tabs
-} from 'vant';
-import 'vant/es/toast/style';
+  Tabs,
+  NoticeBar,
+  Toast,
+} from "vant";
+import "vant/es/toast/style";
 import DemoBlock from "@/view/mobile/components/DemoBlock";
 import DemoSection from "@/view/mobile/components/DemoSection";
 
@@ -63,6 +66,9 @@ app.use(Swipe);
 app.use(Tab);
 app.use(Tabs);
 app.use(SwipeItem);
+app.use(Grid);
+app.use(GridItem);
+app.use(NoticeBar);
 app.component(DemoBlock.name, DemoBlock);
 app.component(DemoSection.name, DemoSection);
-app.mount('#app');
+app.mount("#app");

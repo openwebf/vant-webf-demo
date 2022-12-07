@@ -2,14 +2,14 @@
   <div class="demo-cell">
     <demo-block :title="'basicUsage'">
       <van-cell-group>
-        <van-cell :title="'cell'" :border="false" required :value="'content'"/>
-        <van-cell :title="'cell'" :value="'content'" :label="'desc'"/>
+        <van-cell :title="'cell'"  required :value="'content'"/>
+        <van-cell :title="'cell'" :value="'content'" :label="'desc'" />
       </van-cell-group>
     </demo-block>
     <demo-block :title="'insetGrouped'">
       <van-cell-group inset>
         <van-cell :title="'cell'" :value="'content'"/>
-        <van-cell :title="'cell'" :value="'content'" :label="'desc'"/>
+        <van-cell :title="'cell'" :value="'content'"  :border="false" :label="'desc'"/>
       </van-cell-group>
     </demo-block>
 
