@@ -235,12 +235,20 @@ const routes = [
       title: "filed",
     },
   },
-    {
+  {
     name: "form",
     path: "/form",
     component: () => import("./view/components/form"),
     meta: {
       title: "form",
+    },
+  },
+  {
+    name: "stepper",
+    path: "/stepper",
+    component: () => import("./view/components/stepper"),
+    meta: {
+      title: "stepper",
     },
   },
 ];

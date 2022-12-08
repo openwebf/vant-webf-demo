@@ -22,6 +22,7 @@
 - [x] Loading
 - [x] Field
 - [x] Form
+- [x] Stepper
 - [ ] Calendar
 - [ ] DatetimePicker
 - [ ] Dialog
