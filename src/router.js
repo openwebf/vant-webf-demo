@@ -203,7 +203,7 @@ const routes = [
       title: "grid",
     },
   },
-    {
+  {
     name: "noticeBar",
     path: "/noticeBar",
     component: () => import("./view/components/noticeBar"),
@@ -211,12 +211,36 @@ const routes = [
       title: "noticeBar",
     },
   },
-      {
+  {
     name: "loading",
     path: "/loading",
     component: () => import("./view/components/loading"),
     meta: {
       title: "loading",
+    },
+  },
+  {
+    name: "picker",
+    path: "/picker",
+    component: () => import("./view/components/picker"),
+    meta: {
+      title: "picker",
+    },
+  },
+  {
+    name: "filed",
+    path: "/filed",
+    component: () => import("./view/components/filed"),
+    meta: {
+      title: "filed",
+    },
+  },
+    {
+    name: "form",
+    path: "/form",
+    component: () => import("./view/components/form"),
+    meta: {
+      title: "form",
     },
   },
 ];
