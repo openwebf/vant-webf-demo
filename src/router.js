@@ -251,6 +251,14 @@ const routes = [
       title: "stepper",
     },
   },
+  {
+    name: "numberKeyboard",
+    path: "/numberKeyboard",
+    component: () => import("./view/components/numberKeyboard"),
+    meta: {
+      title: "numberKeyboard",
+    },
+  },
 ];
 
 const router = createRouter({
