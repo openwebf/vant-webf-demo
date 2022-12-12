@@ -24,11 +24,11 @@
 - [x] Form
 - [x] Stepper
 - [x] Switch
+- [x] NumberKeyboard
+- [ ] Picker
 - [ ] Calendar
 - [ ] DatetimePicker
 - [ ] Dialog
-- [ ] NumberKeyboard
-- [ ] Picker
 - [ ] Popup
 - [ ] Swipe
 - [ ] SwipeItem
