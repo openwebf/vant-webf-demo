@@ -23,6 +23,7 @@
 - [x] Field
 - [x] Form
 - [x] Stepper
+- [x] Switch
 - [ ] Calendar
 - [ ] DatetimePicker
 - [ ] Dialog
@@ -31,7 +32,6 @@
 - [ ] Popup
 - [ ] Swipe
 - [ ] SwipeItem
-- [ ] Switch
 - [ ] Toast
 - [ ] Tab
 ## Project setup

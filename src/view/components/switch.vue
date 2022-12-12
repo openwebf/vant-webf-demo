@@ -21,16 +21,15 @@ export default {
 <template>
   <div class="demo-switch">
     <demo-block :title="'basicUsage'">
-      <van-switch v-model="checked"/>
+      <van-switch v-model="checked" size="40"/>
     </demo-block>
-
     <demo-block :title="'disabled'">
       <van-switch v-model="checked" disabled/>
     </demo-block>
 
-<!--    <demo-block :title="'loadingStatus'">-->
-<!--      <van-switch v-model="checked" loading/>-->
-<!--    </demo-block>-->
+    <!--    <demo-block :title="'loadingStatus'">-->
+    <!--      <van-switch v-model="checked" loading/>-->
+    <!--    </demo-block>-->
 
     <demo-block :title="'customSize'">
       <van-switch v-model="checked2" size="24px"/>
@@ -69,6 +68,12 @@ export default {
 </template>
 
 <style lang="less">
+
+.van-switch__node {
+  width: var(--van-switch-node-size);
+  height: var(--van-switch-node-size);
+}
+
 .demo-switch {
   .van-switch {
     margin-left: var(--van-padding-md);
