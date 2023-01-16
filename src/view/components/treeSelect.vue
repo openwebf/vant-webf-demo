@@ -85,7 +85,7 @@ export default {
     />
   </demo-block>
 
-  <demo-block :title="'multipleMode'">
+  <!-- <demo-block :title="'multipleMode'">
     <van-tree-select
         v-model:active-id="activeIds"
         v-model:main-active-index="activeIndex2"
@@ -121,5 +121,5 @@ export default {
         height="55vw"
         :items="badgeItems"
     />
-  </demo-block>
+  </demo-block> -->
 </template>

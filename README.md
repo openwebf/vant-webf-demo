@@ -1,5 +1,7 @@
 # vue3
+
 ## TODO
+
 - [x] Button
 - [x] Image
 - [x] Icon
@@ -25,34 +27,41 @@
 - [x] Stepper
 - [x] Switch
 - [x] NumberKeyboard
+- [x] Tab
+- [x] Overaly
+- [x] Popup
+- [ ] Toast
 - [ ] Picker
 - [ ] Calendar
 - [ ] DatetimePicker
 - [ ] Dialog
-- [ ] Popup
 - [ ] Swipe
 - [ ] SwipeItem
-- [ ] Toast
-- [ ] Tab
+
 ## Project setup
+
 ```
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 yarn serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 yarn build
 ```
 
 ### Lints and fixes files
+
 ```
 yarn lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

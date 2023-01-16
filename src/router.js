@@ -259,6 +259,22 @@ const routes = [
       title: "numberKeyboard",
     },
   },
+  {
+    name: "swipe",
+    path: "/swipe",
+    component: () => import("./view/components/swipe"),
+    meta: {
+      title: "swipe",
+    },
+  },
+  {
+    name: "notify",
+    path: "/notify",
+    component: () => import("./view/components/notify"),
+    meta: {
+      title: "notify",
+    },
+  },
 ];
 
 const router = createRouter({
