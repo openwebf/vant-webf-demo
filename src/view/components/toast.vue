@@ -105,3 +105,13 @@ export default {
     />
   </demo-block>
 </template>
+<style >
+.van-toast--text{
+  width: 100%;
+}
+.van-toast{
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+}
+</style>

@@ -9,7 +9,6 @@ export default {
   methods:{
     showAnimation:function (){
       this.show = !this.show;
-      console.log("okkkkkkkk")
       setTimeout(function (){},1000)
     }
   }

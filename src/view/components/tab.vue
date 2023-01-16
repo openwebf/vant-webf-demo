@@ -41,7 +41,7 @@ export default {
 
     <demo-block :title="'basicUsage'">
       <van-tabs v-model:active="active1">
-        <van-tab :title="'tab' + index" v-for="index in tab" :key="index">
+        <van-tab :title="'tab' + index"  v-for="index in tab" :key="index">
           {{ 'content' }} {{ index }}
         </van-tab>
       </van-tabs>
@@ -158,7 +158,7 @@ export default {
   }
 
   .van-tab__panel {
-    width: 100px;
+    width: 100%;
     height: 100px;
     padding: 24px 20px;
     background-color: var(--van-background-color-light);

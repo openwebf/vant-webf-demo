@@ -20,8 +20,8 @@ export default {
           style="margin-left: 16px"
           @click="show = true"
       />
-      <van-overlay :duration="0" :show="show" @click="show = false"/>
     </demo-block>
+      <van-overlay :show="show" @click="show = false"/>
 
     <demo-block :title="'embeddedContent'">
       <van-button
@@ -30,7 +30,7 @@ export default {
           style="margin-left: 16px"
           @click="showEmbedded = true"
       />
-      <van-overlay :show="showEmbedded" @click="showEmbedded = false">
+      <van-overlay  :show="showEmbedded" @click="showEmbedded = false">
         <div class="wrapper">
           <div class="block"/>
         </div>
@@ -57,4 +57,5 @@ export default {
     border-radius: 4px;
   }
 }
+
 </style>

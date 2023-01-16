@@ -162,6 +162,8 @@ export default {
 <template>
   <demo-block card :title="'basicUsage'">
     <van-picker
+    :title="t('title')"
+    :columns="t('textColumns')" 
     />
   </demo-block>
 
