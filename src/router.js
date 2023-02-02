@@ -4,9 +4,7 @@ const routes = [
   {
     name: "/",
     path: "/",
-    redirect: {
-      name: "button",
-    },
+    component: () => import("./view/Home"),
     meta: {
       title: "Home",
     },
