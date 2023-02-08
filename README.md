@@ -30,7 +30,7 @@
 - [x] Tab
 - [x] Overaly
 - [x] Popup
-- [ ] Toast
+- [x] Toast
 - [ ] Picker
 - [ ] Calendar
 - [ ] DatetimePicker

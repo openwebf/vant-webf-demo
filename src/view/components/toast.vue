@@ -52,10 +52,12 @@ export default {
     },
 
     showCustomizedToast: function () {
+      let that = this;
       const toast = this.$toast.loading({
         duration: 0,
         forbidClick: true,
         message: 'text4' + 3,
+        loadingType: 'spinner', 
       });
 
       let second = 3;
@@ -65,7 +67,7 @@ export default {
           toast.message = 'text4' + second;
         } else {
           clearInterval(timer);
-          this.$toast.clear();
+          that.$toast.clear();
         }
       }, 1000);
     }
@@ -77,7 +79,7 @@ export default {
 <template>
   <demo-block card :title="'basicUsage'">
     <van-cell is-link :title="'title1'" @click="this.$toast('text')"/>
-    <van-cell is-link :title="'title2'" @click="showLoadingToast()"/>
+    <van-cell is-link :title="'title2'" @click="showLoadingToast('spinner')"/>
     <van-cell is-link :title="'success'" @click="showSuccessToast"/>
     <van-cell is-link :title="'fail'" @click="showFailToast"/>
   </demo-block>

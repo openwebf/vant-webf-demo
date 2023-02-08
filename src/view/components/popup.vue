@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      showBasic: true,
+      showBasic: false,
       showTop: false,
       showBottom: false,
       showLeft: false,
@@ -23,7 +23,7 @@ export default {
     <demo-block card :title="'basicUsage'">
       <van-cell :title="'buttonBasic'" is-link @click="showBasic = true"/>
       <van-popup v-model:show="showBasic" :overlay="true" :style="{ padding: '30px 50px' }">
-        {{ 'content' }}
+       {{ 'content' }}
       </van-popup>
     </demo-block>
 
@@ -37,7 +37,9 @@ export default {
           v-model:show="showTop"
           position="top"
           :style="{ height: '30%' }"
-      />
+      >
+    {{ 'content' }} 
+    </van-popup>
       <van-popup
           v-model:show="showBottom"
           position="bottom"
