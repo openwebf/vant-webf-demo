@@ -273,6 +273,22 @@ const routes = [
       title: "notify",
     },
   },
+  {
+    name: "search",
+    path: "/search",
+    component: () => import("./view/components/search"),
+    meta: {
+      title: "search",
+    },
+  },
+  {
+    name: "dialog",
+    path: "/dialog",
+    component: () => import("./view/components/dialog"),
+    meta: {
+      title: "dialog",
+    },
+  },
 ];
 
 const router = createRouter({

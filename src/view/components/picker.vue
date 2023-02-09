@@ -3,6 +3,7 @@ export default {
   data() {
     return {
       showPicker: false,
+      selectedValues:['衢州'],
       fieldValue: '',
       city: '城市',
       cascade: '级联选择',
@@ -103,6 +104,7 @@ export default {
         text: 'cityName',
         children: 'cities',
       },
+     
     }
   },
 
@@ -162,8 +164,9 @@ export default {
 <template>
   <demo-block card :title="'basicUsage'">
     <van-picker
-    :title="t('title')"
+    :title="'title'"
     :columns="t('textColumns')" 
+    :default-index="2"
     />
   </demo-block>
 
