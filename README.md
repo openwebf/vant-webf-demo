@@ -30,15 +30,15 @@
 - [x] Tab
 - [x] Overaly
 - [x] Popup
-- [x] Toast
+- [x] Dialog
+- [ ] Toast
+- [ ] Picker
+- [ ] Popover
+- [ ] ShareSheet
+- [ ] DatetimePicker
 - [ ] ActionSheet
 - [ ] DropdownMenu
-- [ ] ShareSheet
-- [ ] Popover
 - [ ] Slider
-- [ ] Picker
-- [ ] DatetimePicker
-- [ ] Dialog
 - [ ] Swipe
 - [ ] SwipeItem
 

@@ -58,6 +58,14 @@ const routes = [
     },
   },
   {
+    name: "popover",
+    path: "/popover",
+    component: () => import("./view/components/popover"),
+    meta: {
+      title: "popover",
+    },
+  },
+  {
     name: "space",
     path: "/space",
     component: () => import("./view/components/space"),

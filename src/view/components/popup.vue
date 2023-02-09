@@ -1,4 +1,5 @@
 <script>
+
 export default {
   data() {
     return {
@@ -21,8 +22,8 @@ export default {
   <div class="demo-popup">
 
     <demo-block card :title="'basicUsage'">
-      <van-cell :title="'buttonBasic'" is-link @click="showBasic = true"/>
-      <van-popup v-model:show="showBasic" :overlay="true" :style="{ padding: '30px 50px' }">
+      <van-cell :title="'buttonBasic'" is-link @click="showBasic = true;"/>
+      <van-popup v-model:show="showBasic" :overlay="true" :style="{ padding: '30px 50px',width:'100px',height:'100px',textAlign:'center' }">
        {{ 'content' }}
       </van-popup>
     </demo-block>
@@ -125,6 +126,6 @@ export default {
 
   .van-button {
     margin-left: var(--van-padding-md);
-  }
+  } 
 }
 </style>

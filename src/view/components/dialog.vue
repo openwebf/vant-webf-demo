@@ -42,11 +42,15 @@ export default {
       this.$dialog.alert({
         title: this.t("title"),
         message: this.t("content1"),
+        width:100,
+        height:100,
       });
     },
     onClickAlert2: function () {
       this.$dialog.alert({
         message: this.t("content2"),
+        width:200,
+        height:200,
       });
     },
     onClickRound: function () {
@@ -54,18 +58,24 @@ export default {
         theme: "round-button",
         title: this.t("title"),
         message: this.t("content1"),
+        width:200,
+        height:200,
       });
     },
     onClickRound2: function () {
       this.$dialog.alert({
         theme: "round-button",
         message: this.t("content2"),
+        width:200,
+        height:200,
       });
     },
     onClickConfirm: function () {
       this.$dialog.confirm({
         title: this.t("title"),
         message: this.t("content3"),
+        width:200,
+        height:200,
       });
     },
     onClickBeforeClose: function () {
@@ -78,6 +88,8 @@ export default {
         title: this.t("title"),
         message: this.t("content3"),
         beforeClose,
+        width:200,
+        height:200,
       });
     },
   },
@@ -102,14 +114,14 @@ export default {
 
   <demo-block card :title="t('componentCall')">
     <van-cell is-link :title="t('componentCall')" @click="show = true" />
-    <van-dialog
+    <!-- <van-dialog
       v-model:show="show"
       :title="t('title')"
       show-cancel-button
       :lazy-render="false"
     >
       <img src="https://fastly.jsdelivr.net/npm/@vant/assets/ipad.jpeg" />
-    </van-dialog>
+    </van-dialog> -->
   </demo-block>
 </template>
 
