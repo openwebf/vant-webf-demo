@@ -31,12 +31,12 @@
 - [x] Overaly
 - [x] Popup
 - [x] Dialog
-- [ ] Toast
+- [x] Toast
+- [x] ActionSheet
 - [ ] Picker
 - [ ] Popover
 - [ ] ShareSheet
 - [ ] DatetimePicker
-- [ ] ActionSheet
 - [ ] DropdownMenu
 - [ ] Slider
 - [ ] Swipe

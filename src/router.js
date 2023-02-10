@@ -297,6 +297,14 @@ const routes = [
       title: "dialog",
     },
   },
+  {
+    name: "actionSheet",
+    path: "/actionSheet",
+    component: () => import("./view/components/actionSheet"),
+    meta: {
+      title: "actionSheet",
+    },
+  },
 ];
 
 const router = createRouter({
