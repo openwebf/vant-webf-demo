@@ -33,9 +33,9 @@
 - [x] Dialog
 - [x] Toast
 - [x] ActionSheet
+- [x] ShareSheet
 - [ ] Picker
 - [ ] Popover
-- [ ] ShareSheet
 - [ ] DatetimePicker
 - [ ] DropdownMenu
 - [ ] Slider

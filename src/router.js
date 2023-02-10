@@ -305,6 +305,14 @@ const routes = [
       title: "actionSheet",
     },
   },
+  {
+    name: "shareSheet",
+    path: "/shareSheet",
+    component: () => import("./view/components/shareSheet"),
+    meta: {
+      title: "shareSheet",
+    },
+  },
 ];
 
 const router = createRouter({
