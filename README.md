@@ -28,19 +28,18 @@
 - [x] Switch
 - [x] NumberKeyboard
 - [x] Tab
-- [x] Overaly
+- [x] Overlay
 - [x] Popup
 - [x] Dialog
 - [x] Toast
 - [x] ActionSheet
 - [x] ShareSheet
+- [x] Slider
+- [ ] flutter-swipe
 - [ ] Picker
 - [ ] Popover
 - [ ] DatetimePicker
 - [ ] DropdownMenu
-- [ ] Slider
-- [ ] Swipe
-- [ ] SwipeItem
 
 ## Project setup
 

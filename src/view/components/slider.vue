@@ -27,23 +27,23 @@ export default {
   <div class="demo-slider">
 
     <demo-block :title="'title1'">
-      <van-slider v-model="value1" @change="onChange"/>
+      <van-slider v-model="value1" @change="onChange" button-size="24px"/>
     </demo-block>
 
     <demo-block :title="'title2'">
-      <van-slider range v-model="value2" @change="onChange"/>
+      <van-slider range v-model="value2" @change="onChange" button-size="24px"/>
     </demo-block>
 
     <demo-block :title="'title3'">
-      <van-slider v-model="value3" :min="-50" :max="50" @change="onChange"/>
+      <van-slider v-model="value3" :min="-50" :max="50" @change="onChange" button-size="24px"/>
     </demo-block>
 
     <demo-block :title="'title4'">
-      <van-slider v-model="value4" disabled/>
+      <van-slider v-model="value4" disabled button-size="24px"/>
     </demo-block>
 
     <demo-block :title="'title5'">
-      <van-slider v-model="value5" :step="10" @change="onChange"/>
+      <van-slider v-model="value5" :step="10" @change="onChange" button-size="24px"/>
     </demo-block>
 
     <demo-block :title="'customStyle'">
@@ -52,11 +52,12 @@ export default {
           bar-height="4px"
           active-color="#ee0a24"
           @change="onChange"
+          button-size="24px"
       />
     </demo-block>
 
     <demo-block :title="'customButton'">
-      <van-slider v-model="value7" active-color="#ee0a24">
+      <van-slider v-model="value7" active-color="#ee0a24" button-size="24px">
         <template #button>
           <div class="custom-button">{{ value7 }}</div>
         </template>
@@ -65,8 +66,9 @@ export default {
 
     <demo-block :title="'vertical'">
       <div :style="{ height: '150px', paddingLeft: '30px' }">
-        <van-slider v-model="value8" vertical @change="onChange"/>
+        <van-slider v-model="value8" vertical @change="onChange" button-size="24px"/>
         <van-slider
+            button-size="24px"
             v-model="value9"
             range
             vertical

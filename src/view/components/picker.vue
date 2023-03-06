@@ -113,29 +113,31 @@ export default {
     t: function (value) {
       return this[value];
     },
-    // onChange1: function (values) {
-    // },
-    // onChange2: function (values) {
-    //   this.$refs.picker.value.setColumnValues(1, this.t('column3')[values[0]]);
-    // },
-    // onConfirm: function (value, index) {
-    //   // Toast(t('toastContent', value, index));
-    // },
-    //
-    // onCancel: function () { },
-    //
-    // onCancel2: function () {
-    //   this.showPicker = false;
-    // },
-    //
-    // onClickField: function () {
-    //   this.showPicker = true;
-    // },
-    //
-    // onConfirm2: function (value) {
-    //   this.showPicker = false;
-    //   this.fieldValue = value;
-    // },
+    onChange1: function (values) {
+      console.log(values);
+    },
+    onChange2: function (values) {
+      this.$refs.picker.value.setColumnValues(1, this.t('column3')[values[0]]);
+    },
+    onConfirm: function (value, index) {
+      console.log(value, index);
+      // Toast(t('toastContent', value, index));
+    },
+
+    onCancel: function () { },
+
+    onCancel2: function () {
+      this.showPicker = false;
+    },
+
+    onClickField: function () {
+      this.showPicker = true;
+    },
+
+    onConfirm2: function (value) {
+      this.showPicker = false;
+      this.fieldValue = value;
+    },
   }
 }
 
@@ -165,8 +167,10 @@ export default {
   <demo-block card :title="'basicUsage'">
     <van-picker
     :title="'title'"
-    :columns="t('textColumns')" 
-    :default-index="2"
+    :columns="t('textColumns')"
+    :default-index="5"
+    @confirm="onConfirm"
+    @cancel="onCancel"
     />
   </demo-block>
 
@@ -234,3 +238,9 @@ export default {
 <!--    />-->
 <!--  </demo-block>-->
 </template>
+<style>
+.van-picker__mask{
+  /*background-image:none;*/
+  /*z-index: 0;*/
+}
+</style>
