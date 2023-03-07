@@ -58,6 +58,7 @@ export default {
         { name: "Swipe", path: "swipe" },
         { name: "Transition", path: "transition" },
         { name: "SwipeItem", path: "SwipeItem" },
+        { name: "FlutterSwiper", path: "flutterSwiper" },
       ],
     };
   },

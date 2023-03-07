@@ -313,6 +313,14 @@ const routes = [
       title: "shareSheet",
     },
   },
+  {
+    name: "flutterSwiperPage",
+    path: "/flutterSwiperPage",
+    component: () => import("./view/components/flutterSwipePage"),
+    meta: {
+      title: "flutterSwiperPage",
+    },
+  },
 ];
 
 const router = createRouter({
