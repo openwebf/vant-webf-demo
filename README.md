@@ -35,7 +35,7 @@
 - [x] ActionSheet
 - [x] ShareSheet
 - [x] Slider
-- [ ] flutter-swipe
+- [x] flutter-swipe
 - [ ] Picker
 - [ ] Popover
 - [ ] DatetimePicker
